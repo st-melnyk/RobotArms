@@ -1,0 +1,16 @@
+\\psf\Home\Desktop\UnityProjects\obj\Debug\UnityVS.UnityProjects.CSharp.csprojResolveAssemblyReference.cache
+\\psf\Home\Desktop\UnityProjects\Temp\bin\Debug\UnityVS.UnityProjects.CSharp.dll
+\\psf\Home\Desktop\UnityProjects\Temp\bin\Debug\UnityVS.UnityProjects.CSharp.pdb
+\\psf\Home\Desktop\UnityProjects\Temp\bin\Debug\LevelSerialization.dll
+\\psf\Home\Desktop\UnityProjects\Temp\bin\Debug\protobuf-net.dll
+\\psf\Home\Desktop\UnityProjects\Temp\bin\Debug\ProtoSerialization.dll
+\\psf\Home\Desktop\UnityProjects\Temp\bin\Debug\UnityEditor.dll
+\\psf\Home\Desktop\UnityProjects\Temp\bin\Debug\UnityEngine.dll
+\\psf\Home\Desktop\UnityProjects\Temp\bin\Debug\Mono.Cecil.dll
+\\psf\Home\Desktop\UnityProjects\Temp\bin\Debug\nunit.framework.dll
+\\psf\Home\Desktop\UnityProjects\Temp\bin\Debug\Unity.DataContract.dll
+\\psf\Home\Desktop\UnityProjects\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+\\psf\Home\Desktop\UnityProjects\Temp\bin\Debug\UnityEngine.xml
+\\psf\Home\Desktop\UnityProjects\Temp\bin\Debug\UnityEditor.xml
+\\psf\Home\Desktop\UnityProjects\obj\Debug\UnityVS.UnityProjects.CSharp.dll
+\\psf\Home\Desktop\UnityProjects\obj\Debug\UnityVS.UnityProjects.CSharp.pdb

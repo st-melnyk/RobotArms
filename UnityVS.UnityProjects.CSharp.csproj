@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4ABD320C-41D0-167F-94E6-1717F651815D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>UnityVS.UnityProjects.CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MonoProfile>unity</MonoProfile>
+    <UnityPath>C:\Program Files (x86)\Unity\Editor</UnityPath>
+    <MonoPath>$(UnityPath)\Data\Mono</MonoPath>
+    <LibraryAssembly>Assembly-CSharp.dll</LibraryAssembly>
+    <TargetFrameworkDirectory>$(MonoPath)\lib\mono\$(MonoProfile)</TargetFrameworkDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <HintPath>$(TargetFrameworkDirectory)\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>$(TargetFrameworkDirectory)\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.XML">
+      <HintPath>$(TargetFrameworkDirectory)\System.XML.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>$(TargetFrameworkDirectory)\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(UnityPath)\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>$(UnityPath)\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="LevelSerialization">
+      <HintPath>Assets\SioStarTrack\Libs\LevelSerialization.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>Assets\SioStarTrack\Libs\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="ProtoSerialization">
+      <HintPath>Assets\SioStarTrack\Libs\ProtoSerialization.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\DebugDraw.cs" />
+    <Compile Include="Assets\Demo\SioNode.cs" />
+    <Compile Include="Assets\Demo\SioNodeRotor.cs" />
+    <Compile Include="Assets\Demo\SioNodeVizualizator.cs" />
+    <Compile Include="Assets\iTween\Plugins\iTween.cs" />
+    <Compile Include="Assets\iTween\Sample\MoveSample.cs" />
+    <Compile Include="Assets\iTween\Sample\RotateSample.cs" />
+    <Compile Include="Assets\iTween\Sample\SampleInfo.cs" />
+    <Compile Include="Assets\SioStarTrack\Resources\Skins\STSkin.cs" />
+    <Compile Include="Assets\SioStarTrack\Resources\Skins\STSkinsManager.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\Control\STControl.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\InfoHUD.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\Model\STLButton.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\Model\STLink.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\Model\STNode.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\Model\STNodeUI.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\Model\STRootNode.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\Model\STRotor.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\Model\STVisual.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\NodesNet\iNodesNet.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\NodesNet\STNetNode.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\NodesNet\STNodesDefaultBehaviour.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\NodesNet\STNodesNet.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\NodesNet\STNodesNetCircle.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\NodesNet\STNodesNetRadial.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\NodesNet\STNodesNetSimple.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\NodesNet\STPattern.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\NodesNet\STPatternManager.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\NodesNet\STSector.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\Predef.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\STCamera.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\STFileMng.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\STLevel.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\STLevelGUI.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\STOverlayNodes.cs" />
+    <Compile Include="Assets\SioStarTrack\Script\STScene.cs" />
+    <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+    <None Include="Assets\SioStarTrack\Materials\Shaders\ControlShader.shader" />
+    <None Include="Assets\SioStarTrack\Libs\LevelSerialization.dll" />
+    <None Include="Assets\SioStarTrack\Libs\protobuf-net.dll" />
+    <None Include="Assets\SioStarTrack\Libs\ProtoSerialization.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2012\UnityVS.CSharp.targets" />
+</Project>
